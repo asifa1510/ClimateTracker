@@ -3,26 +3,31 @@
 An open-source AI agent that estimates the carbon impact of digital activity and suggests practical ways to reduce it.
 
 **Overview**
-Climate Impact Tracker helps developers understand the environmental cost of cloud usage and web activity.  
-It turns everyday technical decisions into **transparent CO₂e estimates** and **actionable improvements**.
+Climate Impact Tracker makes *invisible digital emissions visible**.  
+Instead of tracking people or offsets, it focuses on **technical decisions** — code, cloud usage, and infrastructure choices.
+
+At its core is an AI agent that doesn’t just report numbers, but **reasons about where change actually matters**.
+
+**What makes it different**
+- Focuses on *decisions*, not guilt or offsets  
+- Uses an AI agent to prioritize actions, not just summarize data  
+- Explicitly models uncertainty and confidence  
+- Designed to be composable with existing developer workflows
 
 **What it does**
 - Estimates carbon impact from cloud and web activity  
 - Identifies the largest emission drivers  
-- Recommends low-effort, high-impact optimizations  
-- Tracks progress over time 📉
+- Suggests low-effort, high-impact optimizations  
+- Tracks changes over time
 
 **How it works**
-Collect usage data → estimate CO₂e → analyze → suggest improvements
+Usage data → CO₂e estimation → agent analysis → recommendations
 
-All results are *directional estimates*, not precise measurements.  
-Methods and assumptions are documented and open.
+All outputs are *directional estimates**, with documented assumptions and limitations.
 
 **Tech stack**
-- n8n (self-hosted)
-- PostgreSQL
+- n8n (workflow orchestration)
+- PostgreSQL (data storage)
+- CrewAI (agent reasoning)
 - Open-source carbon estimation models
-- Local or hosted LLM for analysis
-
-**License**
-MIT
+- Local or hosted LLM (optional)
