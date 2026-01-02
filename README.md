@@ -7,7 +7,7 @@
 >Instead of tracking people or offsets, it focuses on **technical decisions** — code, cloud usage, and infrastructure choices.
 >
 >At its core is an AI agent that doesn’t just report numbers, but **reasons about where change actually matters**.
-
+ 
 **What makes it different**
 >- Focuses on *decisions*, not guilt or offsets  
 >- Uses an AI agent to prioritize actions, not just summarize data  
